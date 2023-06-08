@@ -6,7 +6,7 @@ export default function App() {
     <>
       <nav class="navbar navbar-dark bg-dark">
         <NavLink to={`/`}>
-          <a class="navbar-brand mr-3 text-warning">Fake Products</a>
+          <a class="display-6 fw-bolder text-center text-warning">Fake Products</a>
         </NavLink>
       </nav>
     </>

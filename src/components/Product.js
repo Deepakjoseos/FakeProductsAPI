@@ -64,7 +64,7 @@ const Product = () => {
           </p>
           <h3 className="display-6 fw-bold my-4">$ {product.price}</h3>
           <p className="lead">{product.description}</p>
-             </div>
+        </div>
       </>
     );
   };
@@ -126,8 +126,8 @@ const Product = () => {
         <div className="row py-4">
           {loading ? <Loading /> : <ShowProduct />}
         </div>
-        <div className="d-flex justify-content-center">
-        <Carousel />
+        <div className="justify-content-center">
+          <Carousel />
         </div>
       </div>
     </>
