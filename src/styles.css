@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.col-md-6 img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.8s;
+}
