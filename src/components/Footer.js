@@ -10,27 +10,27 @@ const Footer = () => {
               SocialMedia Links
             </h5>
             <p>
-              <a href="#" className="text-white">
+              <a href="https://facebook.com" className="text-white">
                 <i class="fa fa-facebook mr-3"></i>FaceBook
               </a>
             </p>
             <p>
-              <a href="#" className="text-white">
+              <a href="https://twitter.com" className="text-white">
                 <i class="fa fa-twitter mr-3"></i>Twitter
               </a>
             </p>
             <p>
-              <a href="#" className="text-white">
+              <a href="https://instagram.com" className="text-white">
                 <i class="fa fa-instagram mr-3"></i>Instagram
               </a>
             </p>
             <p>
-              <a href="#" className="text-white">
+              <a href="https://linkedin.com" className="text-white">
                 <i class="fa fa-linkedin mr-3"></i>Linkedin
               </a>
             </p>
             <p>
-              <a href="#" className="text-white">
+              <a href="https://youtube.com" className="text-white">
                 <i class="fa fa-youtube mr-3"></i>Youtube
               </a>
             </p>
