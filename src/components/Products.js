@@ -63,10 +63,9 @@ export default function Products() {
                       <p className="card-text lead fw-bold">${product.price}</p>
                       <p className="card-text lead fw-bold">
                         Rating {product.rating && product.rating.rate}
-                        <i className="fa fa-star"></i>(
+                        <i className="fa fa-star text-warning"></i>(
                         {product.rating && product.rating.count})
                       </p>
-                      Buy Now
                     </div>
                   </NavLink>
                 </div>

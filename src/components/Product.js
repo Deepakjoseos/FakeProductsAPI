@@ -59,7 +59,7 @@ const Product = () => {
           <h1 className="display-5">{product.title}</h1>
           <p className="lead fw-bolder">
             Rating {product.rating && product.rating.rate}
-            <i className="fa fa-star"></i>(
+            <i className="fa fa-star text-warning"></i>(
             {product.rating && product.rating.count})
           </p>
           <h3 className="display-6 fw-bold my-4">$ {product.price}</h3>
@@ -126,7 +126,7 @@ const Product = () => {
         <div className="row py-4">
           {loading ? <Loading /> : <ShowProduct />}
         </div>
-        <div className="justify-content-center">
+        <div className="justify-content-center container ml-5">
           <Carousel />
         </div>
       </div>
